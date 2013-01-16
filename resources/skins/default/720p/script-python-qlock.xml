@@ -1,7 +1,7 @@
 <window type="window">
 	<controls>
 		<control type="group">
-			<posx>368</posx>
+			<posx>343</posx>
 			<posy>78</posy>
 			<animation type="WindowOpen">
 				<effect type="fade" start="0" end="100" time="500"/>
@@ -15,7 +15,7 @@
 				<posx>15</posx>
 				<posy>20</posy>
 				<control type="button" id="5096">
-					<posx>10</posx>
+					<posx>-15</posx>
 					<posy>0</posy>
 					<width>5</width>
 					<height>5</height>
@@ -30,7 +30,7 @@
 					<enable>stringcompare(System.Time(mm),01) | stringcompare(System.Time(mm),11) | stringcompare(System.Time(mm),21) | stringcompare(System.Time(mm),31) | stringcompare(System.Time(mm),41) | stringcompare(System.Time(mm),51) | stringcompare(System.Time(mm),06,right) | stringcompare(System.Time(mm),16,right) | stringcompare(System.Time(mm),26,right) | stringcompare(System.Time(mm),36,right) | stringcompare(System.Time(mm),46,right) | stringcompare(System.Time(mm),56,right) | Control.isEnabled(5097)</enable>
 				</control>
 				<control type="button" id="5097">
-					<posx>530</posx>
+					<posx>555</posx>
 					<posy>0</posy>
 					<width>5</width>
 					<height>5</height>
@@ -45,7 +45,7 @@
 					<enable>stringcompare(System.Time(mm),02) | stringcompare(System.Time(mm),12) | stringcompare(System.Time(mm),22) | stringcompare(System.Time(mm),32) | stringcompare(System.Time(mm),42) | stringcompare(System.Time(mm),52) | stringcompare(System.Time(mm),07) | stringcompare(System.Time(mm),17) | stringcompare(System.Time(mm),27) | stringcompare(System.Time(mm),37) | stringcompare(System.Time(mm),47) | stringcompare(System.Time(mm),57) | Control.isEnabled(5098)</enable>
 				</control>
 				<control type="button" id="5098">
-					<posx>10</posx>
+					<posx>-15</posx>
 					<posy>504</posy>
 					<width>5</width>
 					<height>5</height>
@@ -60,7 +60,7 @@
 					<enable>stringcompare(System.Time(mm),03) | stringcompare(System.Time(mm),13) | stringcompare(System.Time(mm),23) | stringcompare(System.Time(mm),33) | stringcompare(System.Time(mm),43) | stringcompare(System.Time(mm),53) | stringcompare(System.Time(mm),08) | stringcompare(System.Time(mm),18) | stringcompare(System.Time(mm),28) | stringcompare(System.Time(mm),38) | stringcompare(System.Time(mm),48) | stringcompare(System.Time(mm),58) | Control.isEnabled(5099)</enable>
 				</control>
 				<control type="button" id="5099">
-					<posx>530</posx>
+					<posx>555</posx>
 					<posy>504</posy>
 					<width>5</width>
 					<height>5</height>
@@ -76,9 +76,9 @@
 				</control>
 			</control>
 			<control type="panel">
-				<posx>40</posx>
+				<posx>15</posx>
 				<posy>20</posy>
-				<width>500</width>
+				<width>550</width>
 				<height>500</height>
 				<onleft>-</onleft>
 				<onright>-</onright>
