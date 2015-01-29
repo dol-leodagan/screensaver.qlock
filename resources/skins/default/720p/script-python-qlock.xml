@@ -76,9 +76,9 @@
 				</control>
 			</control>
 			<control type="panel">
-				<posx>15</posx>
+				<posx>-5</posx>
 				<posy>20</posy>
-				<width>550</width>
+				<width>570</width>
 				<height>500</height>
 				<onleft>-</onleft>
 				<onright>-</onright>
