@@ -1,6 +1,7 @@
 #Qlock screensaver add-on by phil65
 #credits to donabi & amet
 
+import os
 import sys
 import xbmcaddon
 
