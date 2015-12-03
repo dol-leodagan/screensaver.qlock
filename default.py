@@ -4,6 +4,7 @@
 import os
 import sys
 import xbmcaddon
+import xbmc
 
 __addon__ = xbmcaddon.Addon()
 __addonid__ = __addon__.getAddonInfo('id')
