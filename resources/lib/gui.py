@@ -1,8 +1,6 @@
-import os
 import sys
 import xbmc
 import xbmcgui
-import xbmcaddon
 
 
 __addon__ = sys.modules["__main__"].__addon__
@@ -20,17 +18,12 @@ def log(txt):
 class Screensaver(xbmcgui.WindowXMLDialog):
 
     def __init__(self, *args, **kwargs):
-        pass
-
-    def onInit(self):
-        self.conts()
-        while (not xbmc.abortRequested) and (not self.stop):
-            xbmc.sleep(1000)
-
-    def conts(self):
-        self.winid = xbmcgui.getCurrentWindowDialogId()
         self.stop = False
         self.Monitor = MyMonitor(action=self.exit)
+
+    def onInit(self):
+        while (not xbmc.abortRequested) and (not self.stop):
+            xbmc.sleep(1000)
 
     def exit(self):
         self.stop = True
