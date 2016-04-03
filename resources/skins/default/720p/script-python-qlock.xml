@@ -27,7 +27,7 @@
 					<label>[B]°[/B]</label>
 					<texturenofocus>-</texturenofocus>
 					<texturefocus>-</texturefocus>
-					<enable>stringcompare(System.Time(mm),01) | stringcompare(System.Time(mm),11) | stringcompare(System.Time(mm),21) | stringcompare(System.Time(mm),31) | stringcompare(System.Time(mm),41) | stringcompare(System.Time(mm),51) | stringcompare(System.Time(mm),06,right) | stringcompare(System.Time(mm),16,right) | stringcompare(System.Time(mm),26,right) | stringcompare(System.Time(mm),36,right) | stringcompare(System.Time(mm),46,right) | stringcompare(System.Time(mm),56,right) | Control.isEnabled(5097)</enable>
+					<enable>stringcompare(System.Time(mm),01) | stringcompare(System.Time(mm),11) | stringcompare(System.Time(mm),21) | stringcompare(System.Time(mm),31) | stringcompare(System.Time(mm),41) | stringcompare(System.Time(mm),51) | stringcompare(System.Time(mm),06) | stringcompare(System.Time(mm),16) | stringcompare(System.Time(mm),26) | stringcompare(System.Time(mm),36) | stringcompare(System.Time(mm),46) | stringcompare(System.Time(mm),56) | Control.isEnabled(5097)</enable>
 				</control>
 				<control type="button" id="5097">
 					<posx>555</posx>
