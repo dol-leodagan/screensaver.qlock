@@ -11,6 +11,20 @@
 				<effect type="fade" start="100" end="0" time="500"/>
 				<effect type="zoom" start="100" end="0" time="500" center="640,263" tween="back" easing="in"/>
 			</animation>
+			<control type="multiimage">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1920</width>
+				<height>1080</height>
+				<aspectratio>scale</aspectratio>
+				<imagepath>$INFO[Window.Property(Qlock.path)]</imagepath>
+				<timeperimage>60000</timeperimage>
+				<fadetime>1000</fadetime>
+				<pauseatend>0</pauseatend>
+				<randomize>true</randomize>
+				<loop>yes</loop>
+				<visible></visible>
+			</control>	
 			<control type="group">
 				<posx>15</posx>
 				<posy>20</posy>
