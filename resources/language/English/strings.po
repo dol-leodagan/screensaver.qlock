@@ -28,6 +28,14 @@ msgctxt "#30004"
 msgid "Image Folder"
 msgstr ""
 
+msgctxt "#30005"
+msgid "Dim level"
+msgstr "Dim level"
+
 msgctxt "#30024"
 msgid "Basic"
 msgstr ""
+
+msgctxt "#30029"
+msgid "Display background picture"
+msgstr "Display background picture"

@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-    <category label="30024">
-		<setting label="30001" type="folder" source="pictures" id="path"  />		
-    </category>
+<settings version="1">
+	<section id="addon">
+		<category id="30024" label="30024">
+			<group id="1">
+				<setting help="" id="background" label="30029" type="boolean">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+				<setting help="" id="path" label="30001" parent="type" type="path">
+					<level>0</level>
+					<default/>
+					<constraints>
+						<allowempty>true</allowempty>
+						<sources>
+							<source>pictures</source>
+						</sources>
+					</constraints>
+					<dependencies>
+						<dependency type="enable">
+							<condition operator="is" setting="background">true</condition>
+						</dependency>
+					</dependencies>
+					<control format="path" type="button">
+						<heading>30001</heading>
+					</control>
+				</setting>
+				<setting help="" id="level" label="30005" type="integer">
+					<level>0</level>
+					<default>100</default>
+					<control format="percentage" type="slider">
+						<popup>false</popup>
+					</control>
+					<constraints>
+						<minimum>0</minimum>
+						<step>1</step>
+						<maximum>100</maximum>
+					</constraints>
+				</setting>
+			</group>
+		</category>
+	</section>
 </settings>
